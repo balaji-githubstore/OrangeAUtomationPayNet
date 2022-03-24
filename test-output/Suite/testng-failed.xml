@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login Test(failed)">
+    <classes>
+      <class name="com.paynet.test.LoginTest">
+        <methods>
+          <include name="invalidCredentialTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="validCredentialTest"/>
+        </methods>
+      </class> <!-- com.paynet.test.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test thread-count="5" name="Socail Test(failed)">
+    <classes>
+      <class name="com.paynet.test.SocialMediaTest">
+        <methods>
+          <include name="validateFacebookLinkTest"/>
+          <include name="validateLinkedinLinkTest"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.paynet.test.SocialMediaTest -->
+    </classes>
+  </test> <!-- Socail Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -7,7 +7,7 @@
         <methods>
           <include name="teardown"/>
           <include name="setup"/>
-          <include name="validCredentialTest" invocation-numbers="1"/>
+          <include name="validCredentialTest"/>
         </methods>
       </class> <!-- com.paynet.test.LoginTest -->
     </classes>

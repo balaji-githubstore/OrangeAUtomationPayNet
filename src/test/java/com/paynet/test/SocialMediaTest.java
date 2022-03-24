@@ -22,7 +22,7 @@ public class SocialMediaTest extends WebDriverWrapper {
 		Assert.assertEquals(driver.getTitle(), "Sign Up | LinkedIn");
 	}
 	
-	@Test
+	//@Test
 	public void validateFacebookLinkTest()
 	{
 		driver.findElement(By.xpath("//img[@alt='OrangeHRM on Facebook']")).click();

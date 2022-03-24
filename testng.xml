@@ -5,7 +5,7 @@
 	<parameter name="browser" value="ch"></parameter>
 	<test thread-count="5" name="Login Test">
 		<classes>
-			<class name="com.paynet.test.DemoTest" />
+			<class name="com.paynet.test.SocialMediaTest" />
 		</classes>
 	</test> <!-- Test -->
 

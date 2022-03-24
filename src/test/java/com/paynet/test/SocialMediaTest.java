@@ -7,13 +7,14 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.paynet.base.WebDriverWrapper;
+import com.paynet.pages.LoginPage;
 
 public class SocialMediaTest extends WebDriverWrapper {
 	
 	@Test
 	public void validateLinkedinLinkTest()
 	{
-		driver.findElement(By.xpath("//img[@alt='LinkedIn OrangeHRM group']")).click();
+		LoginPage.clickOnLinkendin(driver);
 		
 		ArrayList<String> windows=new ArrayList<String>(driver.getWindowHandles());
 		driver.switchTo().window(windows.get(1));
